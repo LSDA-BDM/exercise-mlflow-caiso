@@ -63,6 +63,6 @@ print("Saving model")
 
 mlflow.pyfunc.save_model(
     path="model", 
-    python_model=model,
-    input_example=pd.DataFrame([{"Time": "2026-01-01T15:00:00Z"}])
+    python_model=model
+    # input_example=pd.DataFrame([{"Time": "2026-01-01T15:00:00Z"}])
     )
