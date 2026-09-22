@@ -4,7 +4,7 @@ In this exercise you will learn how to run an MLflow Project, train a CAISO load
 
 > Note: CAISO (California ISO) is a model for load forecasting: it predicts the electricity load for the next day by taking hourly averages of the three days with highest average consumption value among a pool of ten previous days, excluding weekends, holidays, and past DR event days.
 
-To get started click **Use this template > Create a new repository > Codespaces > "<> Code and then open codespace on main**.
+To get started click **Use this template > Create a new repository > Codespaces > "<> Code" and then open codespace on main**.
 
 Once the codespace finished building, navigate to the terminal and **install MLflow (2.5.0)**:
 
